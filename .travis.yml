@@ -7,12 +7,14 @@ python:
   - "3.7"
   - "3.8"
   - "3.9"
+  - "3.10"
   - "pypy3"
 
 env:
   - DJANGO="Django<3.0"
   - DJANGO="Django<3.1"
   - DJANGO="Django<3.2"
+  - DJANGO="Django<3.3"
 
 # Install dependencies.
 install:
